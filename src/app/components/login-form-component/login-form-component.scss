@@ -1,0 +1,43 @@
+:host {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+    input {
+        font-size: large;
+        margin-block: 5px;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    button {
+        width: 60%;
+        border-radius: 20px;
+        padding: 5px;
+        align-self: center;
+        font-size: large;
+        margin-block: 5px;
+        background-color: aliceblue;
+
+         &:hover {
+            background-color: gray;
+        }
+    }
+
+
+}

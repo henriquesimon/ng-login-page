@@ -1,0 +1,7 @@
+<img src="assets/images/logo.png" alt="">
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <input type="email" formControlName="email">
+    <input type="password" formControlName="password">
+    <button type="submit" [disabled]="form.invalid">LOGIN</button>
+</form>
